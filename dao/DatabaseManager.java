@@ -20,9 +20,8 @@ public class DatabaseManager {
 
 	private final String url = "jdbc:derby:db/bankdb";
 
-	public DatabaseManager() {/src/dao
+	public DatabaseManager() {
 		driver = new EmbeddedDriver();
-/src/dao
 		Properties prop = new Properties();
 		prop.put("create", "put");
 
